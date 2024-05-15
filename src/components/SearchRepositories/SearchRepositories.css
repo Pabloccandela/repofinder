@@ -1,0 +1,87 @@
+.repofinder__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.repofinder__search_options{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.repofinder__container h1{
+    font-size: 6vw;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.repofinder__search_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.repofinder__search_container input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    border:none;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.repofinder__search_container button {
+  width: 50px;
+  height: 50px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background: none;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repofinder__search_container button:hover {
+  background: #ccc;
+}
+
+@media (max-width: 600px){
+    .repofinder__container h1{
+        font-size: 10vw;
+    }
+    .repofinder__search_container input {
+        width: 200px;
+    }
+  
+}
+
+.repofinder__search_help{
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    color: #bdbdbd;
+    margin-top: 10px;
+    background-color: #4d4d4d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

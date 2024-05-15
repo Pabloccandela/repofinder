@@ -1,0 +1,45 @@
+.repositoryDetails__volver{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.headerTemplate__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 10px;
+}
+.headerTemplate__header_name{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.repositoryDetails__volver,
+.headerTemplate__header_clone_btn{
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    p{
+        margin: 0;
+    }
+}
+
+.headerTemplate__header_clone_btn:hover{
+    background-color: #555;
+}
+
+.headerTemplate__header_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
